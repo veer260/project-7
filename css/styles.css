@@ -1,0 +1,250 @@
+@import url('https://fonts.googleapis.com/css2?family=Fredoka+One&family=Poppins:wght@200;300;400&display=swap');
+/* @import url('https://fonts.googleapis.com/css2?family=Fredoka+One&family=Poppins:wght@100;200;300;400&display=swap'); */
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    height: 100vh;
+}
+
+
+
+/* ________________________________NAV-SECTION____________________________ */
+.top-section {
+    display: flex;
+    height: 20vh;
+    font-family: 'poppins';
+    font-weight: 400;
+    display: flex;
+}
+
+@media screen and (max-width: 1000px) {
+    .top-section{
+        display: flex;
+        justify-content: space-between;
+        /* flex-direction: column; */
+    }
+
+    .icons{
+        /* margin: 0 auto; */
+
+    }
+
+    .nav-items{
+        visibility: hidden;
+        position: absolute;
+    }
+
+    .logo-img{
+        margin-left: 10px;
+    }
+
+
+    
+}
+.logo-img{
+    height: 38px;
+    align-self: center;
+    margin-left: 40px;
+}
+
+.nav-items{
+    display: flex;
+    margin: auto;
+    margin-left: 260px;
+    column-gap: 80px;
+    /* justify-self: center; */
+}
+
+.nav-item{
+    font-size: 1rem;
+}
+
+.icons{
+    /* margin-left: auto; */
+    height: 38px;
+    align-self: center;
+}
+
+
+
+/* ________________________________MIDDLE-SECTION_________________________ */
+
+@media screen and (max-width: 900px)
+{
+    .intro-section{
+        display: flex;
+        flex-direction: column;
+        height: 1000px;
+    }
+
+    .right-section{
+        text-align: left;
+        margin-left: 40px;
+        margin-top: 50px;
+        
+    }
+
+    .headphone-div{
+        /* text-align: center; */
+    }
+
+}
+
+.intro-section{
+    display: flex;
+    height: 80vh;
+}
+
+.left-section{
+    flex: 6;
+    display: flex; 
+    flex-wrap: wrap;
+    flex-direction: column;
+    /* background-color: aqua; */
+    padding-left: 40px;
+    font-family: 'poppins';
+    row-gap: 10px;
+}
+
+.p-text{
+    font-size: 2rem;
+}
+
+.main-heading{
+    font-family: 'Fredoka one';
+    font-size: 3.7rem;
+    font-weight: 400;
+}
+
+.sub-headlines{
+    display: flex;
+    flex-direction: column;
+    row-gap: 10px;
+
+}
+.sub-headline{
+    margin-left: 60px;
+    display: flex;
+    column-gap: 20px;
+    align-items: center;
+    font-size: 1.1rem;
+    font-weight: 400;
+}
+
+.plus{
+    background-color: #FF5B00;
+    border-radius: 50%;
+    padding: 5px;
+    width: 15px;
+}
+
+.text{
+    font-size: 0.8rem;
+    font-weight: 200;
+    color: grey;
+    margin-top: 30px;
+}
+
+.action-btns{
+    display: flex;
+    column-gap: 30px;
+}
+.action-btn{
+    background-color: #FF5B00;
+    border-radius: 25px;
+    padding: 10px 20px;
+    border: none;
+    color: whitesmoke;
+    font-size: 1rem;
+    margin-top: 25px;
+    font-family: inherit;
+}
+
+
+
+
+
+/* _______________________RIGHT-SECTION________________ */
+.right-section{
+    flex: 4;
+    /* margin-left: auto
+    /* background-color: aquamarine; */
+}
+
+
+.text{
+
+}
+.discount{
+    position: absolute;
+    z-index: -1;
+    width: 120px;
+    /* top: 290px; */
+    /* right: 440px; */
+    left: -30px;
+    top: -20px;
+}
+
+.discount-text{
+    font-family: 'fredoka one';
+    color: whitesmoke;
+    font-size: 0.8rem;
+    font-weight: 400;
+    margin-top: 200px;
+}
+
+.discount-no{
+    font-family: 'fredoka one';
+    color: white;
+    font-weight: 400;
+    /* margin-top: 200px; */
+}
+
+.headphone-div{
+    position: relative;
+    /* background-color: antiquewhite; */
+    height: 300px;
+    /* width: 50%; */
+}
+
+.headphone{
+    width: 400px;
+    position: absolute;
+    z-index: -2;
+    bottom: 120px;
+    /* top: 0px; */
+}
+
+.btn{
+    background-color: black;
+    border-radius: 50%;
+    padding: 10px;
+    border: none;
+}
+
+.btn-yellow{
+    background-color: #FAC213;
+}
+.btn-orange{
+    background-color: #FF5B00;
+}
+
+.right-btn{
+    font-family: 'poppins';
+    margin-left: 120px;
+}
+
+.dots{
+    display:flex;
+    column-gap: 25px;
+    /* margin-top: 130px; */
+    margin-left: 130px;
+    margin-top: -100px;
+}
+
+.btn-yellow{
+    /* padding: 5px; */
+}
